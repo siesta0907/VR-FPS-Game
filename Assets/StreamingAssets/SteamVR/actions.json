@@ -73,6 +73,10 @@
       "name": "/actions/mixedreality/in/ExternalCamera",
       "type": "pose",
       "requirement": "optional"
+    },
+    {
+      "name": "/actions/gun/in/gunFire",
+      "type": "boolean"
     }
   ],
   "action_sets": [
@@ -90,6 +94,10 @@
     },
     {
       "name": "/actions/cocoSet",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/gun",
       "usage": "single"
     }
   ],
